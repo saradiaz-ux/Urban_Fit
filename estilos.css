@@ -1,0 +1,132 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    border-bottom: 2px solid #A020F0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.nav-center ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-center a {
+    color: rgb(255, 133, 19);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-center a:hover, .nav-center a.active {
+    color: #FF1493;
+    text-shadow: 0 0 10px #FF1493;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: radial-gradient(circle, #1a0033 0%, #000000 70%);
+}
+
+.hero h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 3.5rem;
+    color: #d9ff00;
+    text-shadow: 0 0 15px #f0ff1c;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.btn-neon {
+    display: inline-block;
+    background-color: transparent;
+    color: #FF0000;
+    border: 2px solid #FF0000;
+    padding: 12px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #FF0000;
+    transition: all 0.3s ease;
+}
+
+.btn-neon:hover {
+    background-color: #FF0000;
+    color: #000000;
+    box-shadow: 0 0 20px #FF0000, 0 0 40px #FF0000;
+}
+
+.productos-destacados {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.productos-destacados h2 {
+    font-family: 'Pacifico', cursive;
+    color: #A020F0;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #A020F0;
+}
+
+.grid-productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #111111;
+    border: 1px solid #FF1493;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.3);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #FFD700;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    color: #888;
+    font-size: 0.9rem;
+}

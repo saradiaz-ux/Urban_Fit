@@ -1,0 +1,109 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    border-bottom: 2px solid #A020F0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.nav-center ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-center a {
+    color: rgb(255, 133, 19);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-center a:hover, .nav-center a.active {
+    color: #FF1493;
+    text-shadow: 0 0 10px #FF1493;
+}
+
+.content-quienes {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-quienes h1 {
+    font-family: 'Lobster Two', cursive;
+    color: #A020F0;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 15px #A020F0;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #CCCCCC;
+    max-width: 800px;
+    text-align: left;
+    background: #111111;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #FF8C00;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.2);
+}
+
+.about-text strong {
+    color: #FF8C00;
+}
+
+.slogan {
+    font-family: 'Pacifico', cursive;
+    color: #FF1493;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 0 10px #FF1493;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    color: #888;
+    font-size: 0.9rem;
+}
